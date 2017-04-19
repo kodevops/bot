@@ -13,12 +13,12 @@ module.exports = (robot) ->
     channel_id = msg.message.room
     message_id = msg.message.id
 
-    createThread channel_id, message_id, user_name, (err, user_name) ->
+    registerThread channel_id, message_id, user_name, (err, user_name) ->
       if err
         return err
       msg.send "created thead, " + user_name
 
-  createThread = (channel_id, message_id, user_name, cb) ->
+  registerThread = (channel_id, message_id, user_name, cb) ->
     params = {
       channel: channel_id,
       text: '질문이 등록 되었습니다.',
