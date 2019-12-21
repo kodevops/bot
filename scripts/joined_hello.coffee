@@ -20,15 +20,15 @@ message = """어서오세요. 반갑습니다
 https://github.com/kodevops/guideline/blob/master/README.md
 """
 
-
 module.exports = (robot) ->
   Slack = require 'slack-node'
   slack = new Slack process.env.HUBOT_SLACK_TOKEN
 
-  robot.hear /joined #hello_자기소개/i, (msg) ->
+  robot.enter (msg) ->
     user_name = msg.message.user.name
+    hello = robot.adapter.client.rtm.dataStore.getChannelByName '#hello'
     # channel_id = msg.message.room
     # message_id = msg.message.id
-
-    message = "@" + user_name + "\n" +  message;
-    msg.send message
+    if msg.message.room == hello.id
+      message = "@" + user_name + "\n" +  message;
+      msg.send message
