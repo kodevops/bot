@@ -4,6 +4,9 @@
   "private": true,
   "author": "richellin <richellin7@gmail.com>",
   "description": "kodeveloper",
+  "scripts": {
+    "lint": "coffeelint scripts"
+  },
   "dependencies": {
     "hubot": "^3.3.1",
     "hubot-diagnostics": "1.0.0",
@@ -22,5 +25,8 @@
   },
   "engines": {
     "node": "8.9.4"
+  },
+  "devDependencies": {
+    "coffeelint": "^2.1.0"
   }
 }

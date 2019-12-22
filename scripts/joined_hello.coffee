@@ -4,7 +4,7 @@
 # Commands:
 #   joined #hello_자기소개
 
-message = """어서오세요. 반갑습니다
+message = '어서오세요. 반갑습니다
 아래의 양식에 맞춰서
 
 1. 거주지
@@ -18,17 +18,17 @@ message = """어서오세요. 반갑습니다
 
 참고 해주세요 ~~!
 https://github.com/kodevops/guideline/blob/master/README.md
-"""
+'
 
 module.exports = (robot) ->
-  Slack = require 'slack-node'
-  slack = new Slack process.env.HUBOT_SLACK_TOKEN
+    Slack = require 'slack-node'
+    slack = new Slack process.env.HUBOT_SLACK_TOKEN
 
-  robot.enter (msg) ->
-    user_name = msg.message.user.name
-    hello = robot.adapter.client.rtm.dataStore.getChannelByName '#hello'
-    # channel_id = msg.message.room
-    # message_id = msg.message.id
-    if msg.message.room == hello.id
-      message = "@" + user_name + "\n" +  message;
-      msg.send message
+    robot.enter (msg) ->
+        user_name = msg.message.user.name
+        # hello = robot.adapter.client.rtm.dataStore.getChannelByName '#hello'
+        # channel_id = msg.message.room
+        # message_id = msg.message.id
+        if msg.message.room == 'C18KD2QLT' or msg.message.room == 'C50HHUNKX'
+            message = '@' + user_name + '\n' +  message
+            msg.send message
