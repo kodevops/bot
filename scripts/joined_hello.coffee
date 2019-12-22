@@ -29,13 +29,13 @@ https://github.com/kodevops/guideline/blob/master/README.md
 
 기타 문의 사항 및 건의 사항이 있으시면 아래의 스태프에게 연락을 주세요.
 ```
-@sangjun
-@daebum-lee
-@manggu
-@haneri
-@neverone
-@Yoda / Hyungcheol Kim
-@김범녕
+- sangjun
+- daebum-lee
+- manggu
+- haneri
+- neverone
+- Yoda / Hyungcheol Kim
+- 김범녕
 ```
 '''
 
