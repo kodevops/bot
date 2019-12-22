@@ -6,7 +6,7 @@
   "description": "kodeveloper",
   "scripts": {
     "lint": "coffeelint scripts",
-    "test": "mocha --compilers ./node_modules/hubot/node_modules/coffeescript tests/**/*.coffee"
+    "test": "mocha --compilers coffeescript tests/**/*.coffee"
   },
   "dependencies": {
     "hubot": "3.3.1",
