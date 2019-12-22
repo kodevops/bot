@@ -5,7 +5,8 @@
   "author": "richellin <richellin7@gmail.com>",
   "description": "kodeveloper",
   "scripts": {
-    "lint": "coffeelint scripts"
+    "lint": "coffeelint scripts",
+    "test": "mocha --require coffeescript/register tests/**/*.coffee"
   },
   "dependencies": {
     "hubot": "^3.3.1",
@@ -27,6 +28,10 @@
     "node": "8.9.4"
   },
   "devDependencies": {
-    "coffeelint": "^2.1.0"
+    "chai": "^4.2.0",
+    "coffeelint": "^2.1.0",
+    "coffeescript": "^2.4.1",
+    "hubot-test-helper": "^1.9.0",
+    "mocha": "^6.2.2"
   }
 }
