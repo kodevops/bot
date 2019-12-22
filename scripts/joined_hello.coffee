@@ -4,7 +4,7 @@
 # Commands:
 #   joined #hello_자기소개
 
-message = '어서오세요. 반갑습니다
+message = '''어서오세요. 반갑습니다
 아래의 양식에 맞춰서
 
 1. 거주지
@@ -18,7 +18,7 @@ message = '어서오세요. 반갑습니다
 
 참고 해주세요 ~~!
 https://github.com/kodevops/guideline/blob/master/README.md
-'
+'''
 
 module.exports = (robot) ->
     Slack = require 'slack-node'
