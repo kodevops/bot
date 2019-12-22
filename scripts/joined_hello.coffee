@@ -4,7 +4,7 @@
 # Commands:
 #   joined #hello_자기소개
 
-message = '''어서오세요. 반갑습니다 :slightly_smiling_face:
+message = '''어서오세요. 반갑습니다!
 
 아래의 양식에 맞춰서
 ```
@@ -16,7 +16,7 @@ message = '''어서오세요. 반갑습니다 :slightly_smiling_face:
 5. 하고 싶은 말
 ```
 
-**자기소개** 및 **프로필 변경** 해주시면 감사드려요 :slightly_smiling_face:
+*자기소개* 및 *프로필 변경* 해주시면 감사드려요 :slightly_smiling_face:
 아래 링크는 저희 커뮤니티의 `가이드라인` 입니다.
 
 참고해 주세요 ~~!
