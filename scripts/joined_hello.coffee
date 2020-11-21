@@ -32,10 +32,9 @@ https://github.com/kodevops/guideline/blob/master/README.md
 - sangjun
 - daebum-lee
 - manggu
-- haneri
-- neverone
 - Yoda / Hyungcheol Kim
 - 김범녕
+- KIM HYEMI
 ```
 '''
 
