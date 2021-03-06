@@ -27,12 +27,17 @@ https://github.com/kodevops/guideline/blob/master/README.md
 
 --------------------------------------------------------
 
-소모임 리스트
+채널 리스트
 ```
 - 디아블로 #diablo
 - 낚시 #fishing
 - 캠핑 #outdoor
+- 노동요 #bgm_노동요
+- 부업 #부업
+- 지름신 #지름신
 ```
+
+
 
 --------------------------------------------------------
 
@@ -44,6 +49,8 @@ https://github.com/kodevops/guideline/blob/master/README.md
 - Yoda / Hyungcheol Kim
 - 김범녕
 - KIM HYEMI
+- Seongjoo KIM
+- Chung
 ```
 '''
 
